@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-from google.genai import types
+# from google.genai import types
 import tempfile
 import os
 from fpdf import FPDF
