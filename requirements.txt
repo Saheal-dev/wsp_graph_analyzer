@@ -3,3 +3,7 @@ fpdf
 pillow
 pymupdf
 google-generativeai
+numpy
+pandas
+matplotlib
+pytesseract
