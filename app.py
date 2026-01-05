@@ -9,7 +9,7 @@ import fitz  # PyMuPDF for PDF to image conversion
 from datetime import datetime
 import re
 from io import BytesIO
-
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 # --- Page Configuration ---
 st.set_page_config(
     page_title="WSP Graph Analyzer",
